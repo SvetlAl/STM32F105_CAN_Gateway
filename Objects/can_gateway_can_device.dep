@@ -1,0 +1,59 @@
+Dependencies for Project 'can_gateway', Target 'can_device': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x60EC4569)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\src -I .\hdr -I ..\CAN_Gateway-I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x60EAFA02)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (.\RTE\_can_device\RTE_Components.h)(0x60E510E0)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+I (.\hdr\device_init.h)(0x60E93F62)
+I (.\hdr\can.h)(0x60EB879E)
+I (.\hdr\watchdog.h)(0x60E57768)
+F (.\src\device_init.c)(0x60E6F248)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\src -I .\hdr -I ..\CAN_Gateway-I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\device_init.o --omf_browse .\objects\device_init.crf --depend .\objects\device_init.d)
+I (.\hdr\device_init.h)(0x60E93F62)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (.\RTE\_can_device\RTE_Components.h)(0x60E510E0)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+F (.\src\watchdog.c)(0x5DE9209E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\src -I .\hdr -I ..\CAN_Gateway-I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\watchdog.o --omf_browse .\objects\watchdog.crf --depend .\objects\watchdog.d)
+I (.\hdr\watchdog.h)(0x60E57768)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (.\RTE\_can_device\RTE_Components.h)(0x60E510E0)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+F (.\src\can.c)(0x60EC3973)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\src -I .\hdr -I ..\CAN_Gateway-I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\can.o --omf_browse .\objects\can.crf --depend .\objects\can.d)
+I (.\hdr\can.h)(0x60EB879E)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (.\RTE\_can_device\RTE_Components.h)(0x60E510E0)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
+F (.\hdr\device_init.h)(0x60E93F62)()
+F (.\hdr\watchdog.h)(0x60E57768)()
+F (.\hdr\can.h)(0x60EB879E)()
+F (RTE\Device\STM32F105RC\RTE_Device.h)(0x5927EDB6)()
+F (RTE\Device\STM32F105RC\startup_stm32f10x_cl.s)(0x60E5AB7C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "STM32F10X_CL SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_cl.lst --xref -o .\objects\startup_stm32f10x_cl.o --depend .\objects\startup_stm32f10x_cl.d)
+F (RTE\Device\STM32F105RC\system_stm32f10x.c)(0x5825467C)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\src -I .\hdr -I ..\CAN_Gateway-I.\RTE\Device\STM32F105RC-I.\RTE\_can_device-IC:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F10X_CL -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825467C)
+I (.\RTE\_can_device\RTE_Components.h)(0x60E510E0)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\svetl\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825467C)
